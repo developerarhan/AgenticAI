@@ -1,0 +1,87 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+rag_env/
+venv/
+.venv/
+env/
+
+# =========================
+# Django
+# =========================
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Collected static files
+staticfiles/
+
+# User-uploaded media
+media/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Git
+# =========================
+.git/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Docker
+# =========================
+# Usually DON'T ignore these:
+# Dockerfile
+# docker-compose.yml
+# docker-compose.*.yml
+
+# Ignore Docker override/local files if you use them
+docker-compose.override.yml
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Build / Packaging
+# =========================
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+# Large local files
+# =========================
+*.pdf
+*.zip
+*.tar
+*.tar.gz
